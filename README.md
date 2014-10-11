@@ -1,4 +1,2 @@
-<<<<<<< HEAD
-HELLO WORLD!
 Contributers:
-	Siavash Fahimi, siavashm31, Brian, Saran
+	Siavash Fahimi, Brian, Saran, Luke
