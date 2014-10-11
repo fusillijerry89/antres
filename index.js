@@ -12,6 +12,7 @@ app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 });
 
-app.get('/api', function(req, res) {
-    res.send("API")
+app.get('/api:var', function(req, res, next) {
+    res.send(req.params.id);
+    return next();
 });
