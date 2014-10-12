@@ -1,0 +1,5 @@
+<form name="input" action="/api/users/add" method="post" enctype='application/json'>
+    <label for="email">Email: </label> 
+    <input type="text" name="email" id="email"></input>
+    <input type="submit" value="Submit"></input>
+</form> 
